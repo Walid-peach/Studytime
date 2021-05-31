@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BookingActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:rowCount="5"
+        android:columnCount="2"
+        >
+
+        <Button
+            android:id="@+id/table1"
+            android:layout_height="100sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:background="@color/black"
+            android:text="Table 1"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/table2"
+            android:layout_columnWeight="1"
+            android:layout_height="100sp"
+            android:background="#ACB9CA"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Table 2" />
+        <Button
+            android:id="@+id/table3"
+            android:layout_columnWeight="1"
+            android:layout_height="100sp"
+            android:background="#ACB9CA"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Table 3" />
+        <Button
+            android:id="@+id/table4"
+            android:layout_columnWeight="1"
+            android:layout_height="100sp"
+            android:background="#ACB9CA"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Table 4" />
+        <Button
+            android:id="@+id/table5"
+            android:layout_columnWeight="1"
+            android:layout_height="100sp"
+            android:background="#ACB9CA"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Table 5" />
+        <Button
+            android:id="@+id/table6"
+            android:layout_columnWeight="1"
+            android:layout_height="100sp"
+            android:background="#ACB9CA"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Table 6" />
+        <Button
+            android:id="@+id/table7"
+            android:layout_columnWeight="1"
+            android:layout_height="100sp"
+            android:background="#ACB9CA"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Table 7" />
+        <Button
+            android:id="@+id/table8"
+            android:layout_columnWeight="1"
+            android:layout_height="100sp"
+            android:background="#ACB9CA"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Table 8" />
+        <Button
+            android:id="@+id/table9"
+            android:layout_columnWeight="1"
+            android:layout_height="100sp"
+            android:background="#ACB9CA"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Table 9" />
+        <Button
+            android:id="@+id/table10"
+            android:layout_columnWeight="1"
+            android:layout_height="100sp"
+            android:background="#ACB9CA"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Table 10" />
+
+
+    </GridLayout>
+
+</ScrollView>
